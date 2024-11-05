@@ -1,0 +1,11 @@
+<main>
+    <h1>Cadastrar Livro</h1>
+    <form (submit)="incluir()" ngNativeValidate>
+      <div>
+        <label>Título:</label>
+        <input type="text" [(ngModel)]="livro.titulo" name="titulo" required />
+      </div>
+      <div>
+        <label>Resumo:</label>
+       
+  
